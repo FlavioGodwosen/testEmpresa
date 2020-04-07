@@ -1,0 +1,35 @@
+
+f
+java:S1120'"DMake this line start after 8 spaces to indent the code consistently.(ª¨—‘ûÿÿÿÿ8Ä¢Î¯•.
+^
+java:S1106$"AMove this left curly brace to the beginning of next line of code.(¶££Æ8Ä¢Î¯•.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(³•·š8ÄæÉ¯•.
+r	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ÙÛÿüÿÿÿÿ8É¾¢”•.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(¶££Æ8ÄæÉ¯•.
+a
+java:S1120%"DMake this line start after 6 spaces to indent the code consistently.(Ğß¼…8Ä¢Î¯•.
+a
+java:S1120"DMake this line start after 6 spaces to indent the code consistently.(Ğß¼…8ÄæÉ¯•.
+f
+java:S1120."DMake this line start after 6 spaces to indent the code consistently.(ƒ†Øûÿÿÿÿ8Ñ¢Œª•.
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(Â¶‘Ô8òØÎ«•.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Çµí‘8×Úœ”•.
+^
+java:S1106,"AMove this left curly brace to the beginning of next line of code.(¶££Æ8‡ß÷”•.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(úÅæ×şÿÿÿÿ
+a
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(Çµí‘8»””•.
+f
+java:S1120	"DMake this line start after 4 spaces to indent the code consistently.(¼ÙÛÿüÿÿÿÿ8É¾¢”•.
+o
+java:S1132"RMove the "AtÃ© amanhÃ£" string literal on the left side of this string comparison.(³•·š8ÄæÉ¯•.
+f
+java:S1120 "DMake this line start after 8 spaces to indent the code consistently.(ª¨—‘ûÿÿÿÿ8ÄæÉ¯•.
+^
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(¡í’8Ä¢Î¯•.
+m
+java:S1132&"PMove the "JÃ¡ venceu" string literal on the left side of this string comparison.(¡í’8éŸÏ¯•.

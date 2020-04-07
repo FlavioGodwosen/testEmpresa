@@ -1,0 +1,52 @@
+
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(Şåğ—8‡™¦¦•.
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(ò¦ŞÚ8‡™¦¦•.
+c
+java:S1106"AMove this left curly brace to the beginning of next line of code.(‘¨Ìõûÿÿÿÿ8§‡ì“•.
+c
+java:S1106."AMove this left curly brace to the beginning of next line of code.(æşç×ıÿÿÿÿ8§‡ì“•.
+f
+java:S11203"DMake this line start after 4 spaces to indent the code consistently.(áÀò£úÿÿÿÿ8§‡ì“•.
+T
+java:S1213"8Move this variable to comply with Java Code Conventions.(ï’8‡™¦¦•.
+x	java:S116"WRename this field "Ingredientes" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¯¹“øÿÿÿÿ8§‡ì“•.
+]
+java:S1106&"AMove this left curly brace to the beginning of next line of code.(¥©æT8§‡ì“•.
+a
+java:S1120"DMake this line start after 2 spaces to indent the code consistently.(Şåğ—8¯¿×¨•.
+a
+java:S1120#"DMake this line start after 4 spaces to indent the code consistently.(—‰˜8§‡ì“•.
+]
+java:S1106"AMove this left curly brace to the beginning of next line of code.(è«»	8§‡ì“•.
+X
+java:S1213";Move this constructor to comply with Java Code Conventions.(·İŞ8‡™¦¦•.
+c
+java:S1106*"AMove this left curly brace to the beginning of next line of code.(ê†‰üÿÿÿÿ8§‡ì“•.
+\
+java:S1106"AMove this left curly brace to the beginning of next line of code.(†Œ£Äıÿÿÿÿ
+f
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(Û¢±üüÿÿÿÿ8§‡ì“•.
+Z
+java:S1213"8Move this variable to comply with Java Code Conventions.(™¯¹“øÿÿÿÿ8‡™¦¦•.
+f
+java:S1120/"DMake this line start after 4 spaces to indent the code consistently.(†ØªØúÿÿÿÿ8§‡ì“•.
+^
+java:S1106"AMove this left curly brace to the beginning of next line of code.(·İŞ8§‡ì“•.
+^
+java:S1106""AMove this left curly brace to the beginning of next line of code.(¥®ìÑ8§‡ì“•.
+W
+java:S1213";Move this constructor to comply with Java Code Conventions.(è«»	8‡™¦¦•.
+a
+java:S1120"DMake this line start after 4 spaces to indent the code consistently.(Îê‰8§‡ì“•.
+f
+java:S1120+"DMake this line start after 4 spaces to indent the code consistently.(˜éŒªÿÿÿÿÿ8§‡ì“•.
+Z
+java:S1213"8Move this variable to comply with Java Code Conventions.(”“ºµşÿÿÿÿ8‡™¦¦•.
+j	java:S116"ORename this field "Nome" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ï’8§‡ì“•.
+t	java:S116"SRename this field "Validade" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”“ºµşÿÿÿÿ8§‡ì“•.
+a
+java:S1120'"DMake this line start after 4 spaces to indent the code consistently.(’’¨º8§‡ì“•.
+^
+java:S11062"AMove this left curly brace to the beginning of next line of code.(Åâ¼8§‡ì“•.
