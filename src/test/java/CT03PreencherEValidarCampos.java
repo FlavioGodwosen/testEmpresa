@@ -9,6 +9,18 @@ import java.util.List;
 import java.util.Map;
 
 public class CT03PreencherEValidarCampos {
+
+    //Funcionalidade: Verificar ausência dos botões após clicar nos mesmos
+
+    //Cenário: Clicar nos botões "One", "Two, e "Four" no painel ”IFRAME BUTTONS” e validar a ausência dos mesmos.
+
+    //Dado que estou na mesma página
+    //E preencho o campo “YourFirstName” com um texto, clico no botão “One”,
+    //E checo a opção”OptionThree”,
+    //Quando seleciono a opção “ExempleTwo” dentro da select box
+    //Então valido a imagem logo do “Selenium Webdriver”.
+
+
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;

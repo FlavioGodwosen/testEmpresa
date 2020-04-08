@@ -9,6 +9,16 @@ import java.util.List;
 import java.util.Map;
 
 public class CT02ValidarBotoesEAusenciaPainelIBTest {
+
+    //Funcionalidade: Verificar ausência dos botões após clicar nos mesmos
+
+    //Cenário: Clicar nos botões "One", "Two, e "Four" no painel ”IFRAME BUTTONS” e validar a ausência dos mesmos.
+
+    //Dado que estou na mesma página
+    //E clico nos botões "One", "Two, e "Four" no painel ”IFRAME BUTTONS”
+    //Quando verifico os botões
+    //Então os botões estão ausentes.
+
     private WebDriver driver;
     private Map<String, Object> vars;
     JavascriptExecutor js;
