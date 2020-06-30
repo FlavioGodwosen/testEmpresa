@@ -9,3 +9,9 @@ b
 2src/main/java/com/br/testempresa/ListaNumeros.java,9\2\920015162ed113c0b8a4b71abf78cc196c2328d6
 D
 .circleci/config.yml,f\d\fd5da61396a8376845bee5cdf71aaf3c98a888ae
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+a
+1src/test/java/CT01ValidarBotoesEAusenciaTest.java,9\6\962d6ba70f038d8368cf9a005e698c5e50e63587
+i
+9src/test/java/CT02ValidarBotoesEAusenciaPainelIBTest.java,7\0\70beb414dae28eb0a7f73b7d8d253afe1c2160a0

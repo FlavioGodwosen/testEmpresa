@@ -24,8 +24,12 @@ public class CT01ValidarBotoesEAusenciaTest {
     private WebDriver driver;
         private Map<String, Object> vars;
         JavascriptExecutor js;
+
+
         @Before
         public void setUp() {
+            System.setProperty("webdriver.chrome.driver",
+                    "C:\\Users\\Flavio\\Documents\\Driver\\chromedriver.exe");
             driver = new ChromeDriver();
             js = (JavascriptExecutor) driver;
             vars = new HashMap<String, Object>();
