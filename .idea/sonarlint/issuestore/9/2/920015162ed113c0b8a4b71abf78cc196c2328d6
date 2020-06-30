@@ -1,0 +1,12 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(ï°ş²üÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(±óèÔ
+K
+java:S1854*"5Remove this useless assignment to local variable "n".(×É‡Ô
+V	java:S125#"<This block of commented-out lines of code should be removed.(ï°ş²üÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥‹§×ûÿÿÿÿ
+<
+java:S1481*"&Remove this unused "n" local variable.(×É‡Ô
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Ğµ¥Ûúÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(¥‹§×ûÿÿÿÿ
