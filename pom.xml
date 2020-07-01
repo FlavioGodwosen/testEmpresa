@@ -8,8 +8,6 @@
     <artifactId>testEmpresa</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
-
     <properties>
         <sonar.projectKey>FlavioGodwosen_testEmpresa</sonar.projectKey>
         <sonar.organization>flaviogodwosen</sonar.organization>
