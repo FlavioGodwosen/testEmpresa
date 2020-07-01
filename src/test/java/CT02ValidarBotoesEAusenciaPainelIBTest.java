@@ -35,7 +35,7 @@ public class CT02ValidarBotoesEAusenciaPainelIBTest {
         driver.quit();
     }
     @Test
-    public void cT02ValidarBotoesEAusenciaPainelIB() {
+    public void ct02ValidarBotoesEAusenciaPainelIB() {
         driver.get("https://wejump-automation-test.github.io/qa-test/");
         driver.manage().window().setSize(new Dimension(917, 774));
         driver.switchTo().frame(0);

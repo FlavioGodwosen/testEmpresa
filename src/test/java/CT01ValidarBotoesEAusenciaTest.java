@@ -39,7 +39,7 @@ public class CT01ValidarBotoesEAusenciaTest {
             driver.quit();
         }
         @Test
-        public void cT01ValidarBotoesEAusencia() {
+        public void ct01ValidarBotoesEAusencia() {
             driver.get("https://wejump-automation-test.github.io/qa-test/");
             driver.manage().window().setSize(new Dimension(917, 774));
             driver.findElement(By.id("btn_one")).click();

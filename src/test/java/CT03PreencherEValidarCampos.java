@@ -37,7 +37,7 @@ public class CT03PreencherEValidarCampos {
         driver.quit();
     }
     @Test
-    public void cT03PreencherEValidarCampos() {
+    public void ct03PreencherEValidarCampos() {
         driver.get("https://wejump-automation-test.github.io/qa-test/");
         driver.manage().window().setSize(new Dimension(912, 825));
         driver.findElement(By.id("first_name")).click();
