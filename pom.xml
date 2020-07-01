@@ -15,7 +15,7 @@
         <sonar.projectKey>FlavioGodwosen_testEmpresa</sonar.projectKey>
         <sonar.organization>flaviogodwosen</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>d606f5535a4ba7cdd90e381c61bf08bcfde34634</sonar.login>
+        <sonar.login>6b16dda3e047e8f9bf99a4e06e662f060a95b3e2</sonar.login>
     </properties>
 
 <dependencies>
