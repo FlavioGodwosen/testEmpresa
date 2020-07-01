@@ -1,0 +1,24 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\n    <modelVersion>4.0.0</modelVersion>\n\n    <groupId>org.example</groupId>\n    <artifactId>testEmpresa</artifactId>\n    <version>1.0-SNAPSHOT</version>\n\n\n\n    <properties>\n        <sonar.projectKey>FlavioGodwosen_testEmpresa</sonar.projectKey>\n        <sonar.organization>flaviogodwosen</sonar.organization>\n        <sonar.host.url>https://sonarcloud.io</sonar.host.url>\n        <sonar.login>d606f5535a4ba7cdd90e381c61bf08bcfde34634</sonar.login>\n\n    </properties>\n\n<dependencies>\n    <!-- https://mvnrepository.com/artifact/junit/junit -->\n    <dependency>\n        <groupId>junit</groupId>\n        <artifactId>junit</artifactId>\n        <version>4.12</version>\n        <scope>test</scope>\n    </dependency>\n    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->\n    <dependency>\n        <groupId>org.seleniumhq.selenium</groupId>\n        <artifactId>selenium-java</artifactId>\n        <version>3.141.59</version>\n    </dependency>\n\n</dependencies>\n\n\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- pom.xml	(revision f8220d61b2eb86740f1ff92dc8e1b31205b5d361)
++++ pom.xml	(date 1593619282896)
+@@ -7,10 +7,13 @@
+     <groupId>org.example</groupId>
+     <artifactId>testEmpresa</artifactId>
+     <version>1.0-SNAPSHOT</version>
+-
++    
+ 
+ 
+     <properties>
++        <maven.compiler.source>1.8</maven.compiler.source>
++        <maven.compiler.target>1.8</maven.compiler.target>
++
+         <sonar.projectKey>FlavioGodwosen_testEmpresa</sonar.projectKey>
+         <sonar.organization>flaviogodwosen</sonar.organization>
+         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
