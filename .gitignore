@@ -1,3 +1,6 @@
 # Project exclude paths
 /target/
 .idea/
+.DS_Store
+.bash_profile
+testEmpresa.iml
