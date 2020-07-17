@@ -12,8 +12,9 @@
          <sonar.projectKey>FlavioGodwosen_testEmpresa</sonar.projectKey>
          <sonar.organization>flaviogodwosen</sonar.organization>
          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-         <sonar.login>ab1ef16347b1aaf8fcb8de8586311e0c63dcf2f1</sonar.login>
-    </properties>     
+         <sonar.login>9047d5d4073967e8161c0c83783022302dc48dc1</sonar.login>
+    </properties>
+
 
 <dependencies>
     <!-- https://mvnrepository.com/artifact/junit/junit -->
