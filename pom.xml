@@ -33,6 +33,6 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-api</artifactId>
             <version>3.141.59</version>
-        </dependency>Z
+        </dependency>
     </dependencies>
 </project>
