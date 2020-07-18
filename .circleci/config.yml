@@ -1,4 +1,6 @@
 version: 2.1
+orbs:
+  maven: circleci/maven@0.0.12
 
 jobs:
   build:
@@ -11,6 +13,9 @@ jobs:
           command: mvn verify sonar:sonar
 
 workflows:
+  maven_test:
+    jobs:
+      - maven/test # checkout, build, test, and upload test results
   main:
     jobs:
       - build:
