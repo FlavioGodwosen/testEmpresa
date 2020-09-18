@@ -3,13 +3,13 @@ package tests;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utils.Utils;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class CT03PreencherEValidarCampos {
 
@@ -41,21 +41,5 @@ public class CT03PreencherEValidarCampos {
         driver.findElement(By.id("first_name")).click();
         driver.findElement(By.id("first_name")).sendKeys("Flavio Silva de Souza");
         driver.findElement(By.id("btn_one")).click();
-        {
-            List<WebElement> elements = driver.findElements(By.cssSelector(".checkbox:nth-child(9) > label"));
-            assert(elements.size() > 0);
-        }
-        driver.findElement(By.id("select_box")).click();
-        {
-            WebElement dropdown = driver.findElement(By.id("select_box"));
-            dropdown.findElement(By.xpath("//option[. = 'ExampleTwo']")).click();
-        }
-        driver.findElement(By.id("select_box")).click();
-        {
-            List<WebElement> elements = driver.findElements(By.cssSelector(".img-responsive-center-block:nth-child(4)"));
-            assert(elements.size() > 0);
-        }
     }
-
-
 }

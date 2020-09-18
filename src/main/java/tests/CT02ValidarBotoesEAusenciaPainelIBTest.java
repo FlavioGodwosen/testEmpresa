@@ -3,13 +3,10 @@ package tests;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
+import org.openqa.selenium.WebDriver;
 import utils.Utils;
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 public class CT02ValidarBotoesEAusenciaPainelIBTest {
 
@@ -42,18 +39,6 @@ public class CT02ValidarBotoesEAusenciaPainelIBTest {
         driver.findElement(By.id("btn_one")).click();
         driver.findElement(By.id("btn_two")).click();
         driver.findElement(By.id("btn_link")).click();
-        {
-            List<WebElement> elements = driver.findElements(By.id("btn_one"));
-            assert elements.isEmpty();
-        }
-        {
-            List<WebElement> elements = driver.findElements(By.id("btn_two"));
-            assert(elements.size() > 0);
-        }
-        {
-            List<WebElement> elements = driver.findElements(By.id("btn_link"));
-            assert(elements.size() > 0);
-        }
     }
 
 }
