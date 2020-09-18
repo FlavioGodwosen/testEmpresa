@@ -44,7 +44,7 @@ public class CT02ValidarBotoesEAusenciaPainelIBTest {
         driver.findElement(By.id("btn_link")).click();
         {
             List<WebElement> elements = driver.findElements(By.id("btn_one"));
-            assert(elements.size() > 0);
+            assert elements.isEmpty();
         }
         {
             List<WebElement> elements = driver.findElements(By.id("btn_two"));
