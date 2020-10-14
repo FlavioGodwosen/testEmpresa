@@ -6,7 +6,10 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utils.Utils;
+
+import java.util.List;
 
 public class CT01ValidarBotoesEAusenciaTest {
 
@@ -34,12 +37,27 @@ public class CT01ValidarBotoesEAusenciaTest {
     @Test
     public void ct01ValidarBotoesEAusencia() {
         driver.get("https://wejump-automation-test.github.io/qa-test/");
-        driver.manage().window().setSize(new Dimension(917, 774));
+        driver.manage().window().maximize();
         driver.findElement(By.id("btn_one")).click();
         driver.findElement(By.id("btn_two")).click();
         driver.findElement(By.id("btn_link")).click();
+        {
+            List<WebElement> elements = driver.findElements(By.id("btn_one"));
+            assert(elements.size() > 0);
+        }
+        {
+            List<WebElement> elements = driver.findElements(By.id("btn_two"));
+            assert(elements.size() > 0);
+        }
+        {
+            List<WebElement> elements = driver.findElements(By.id("btn_link"));
+            assert(elements.size() > 0);
+        }
     }
 }
+
+
+
 
 
 

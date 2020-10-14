@@ -35,11 +35,13 @@ public class CT03PreencherEValidarCampos {
     }
 
     @Test
-    public void ct03PreencherEValidarCampos() {
+    public void ct03PreencherEValidarCampos() throws InterruptedException {
+        driver.manage().window().maximize();
         driver.get("https://wejump-automation-test.github.io/qa-test/");
-        driver.manage().window().setSize(new Dimension(912, 825));
         driver.findElement(By.id("first_name")).click();
         driver.findElement(By.id("first_name")).sendKeys("Flavio Silva de Souza");
         driver.findElement(By.id("btn_one")).click();
+
+        Thread.sleep(2000);
     }
 }

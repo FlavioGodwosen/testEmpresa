@@ -32,13 +32,15 @@ public class CT02ValidarBotoesEAusenciaPainelIBTest {
     }
 
     @Test
-    public void ct02ValidarBotoesEAusenciaPainelIB() {
+    public void ct02ValidarBotoesEAusenciaPainelIB() throws InterruptedException {
+        driver.manage().window().maximize();
         driver.get("https://wejump-automation-test.github.io/qa-test/");
-        driver.manage().window().setSize(new Dimension(917, 774));
         driver.switchTo().frame(0);
         driver.findElement(By.id("btn_one")).click();
         driver.findElement(By.id("btn_two")).click();
         driver.findElement(By.id("btn_link")).click();
+
+        Thread.sleep(2000);
     }
 
 }
