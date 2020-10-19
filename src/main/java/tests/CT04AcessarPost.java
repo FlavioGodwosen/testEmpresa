@@ -25,18 +25,17 @@ public class CT04AcessarPost {
 
     @Test
     public void cT01AcessarPost() throws InterruptedException {
-        driver.get("https://medium.com/revista-tspi");
         driver.manage().window().maximize();
-        Thread.sleep(8000);
+        driver.get("https://medium.com/revista-tspi");
         driver.findElement(By.cssSelector(".collectionHeader-heroInner")).click();
 
         js = (JavascriptExecutor)driver;
         js.executeScript("window.scrollTo(0,3482.39990234375)");
-
+        Thread.sleep(3000);
         js.executeScript("window.scrollTo(0,4120)");
 
         driver.findElement(By.linkText("SonarLint: Seu código com mais qualidade")).click();
-        Thread.sleep(3000);
+
     }
 }
 
