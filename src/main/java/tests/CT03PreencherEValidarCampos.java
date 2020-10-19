@@ -4,12 +4,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import utils.Utils;
-
-import java.util.List;
 
 public class CT03PreencherEValidarCampos {
 
