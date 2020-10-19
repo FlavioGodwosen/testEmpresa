@@ -5,10 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import utils.Utils;
-
-import java.util.List;
 
 public class CT01ValidarBotoesEAusenciaTest {
 
@@ -40,18 +37,6 @@ public class CT01ValidarBotoesEAusenciaTest {
         driver.findElement(By.id("btn_one")).click();
         driver.findElement(By.id("btn_two")).click();
         driver.findElement(By.id("btn_link")).click();
-        {
-            List<WebElement> elements = driver.findElements(By.id("btn_one"));
-            assert(elements.size() > 0);
-        }
-        {
-            List<WebElement> elements = driver.findElements(By.id("btn_two"));
-            assert(elements.size() > 0);
-        }
-        {
-            List<WebElement> elements = driver.findElements(By.id("btn_link"));
-            assert(elements.size() > 0);
-        }
     }
 }
 
